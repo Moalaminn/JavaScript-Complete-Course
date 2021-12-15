@@ -1,3 +1,4 @@
+/*
 const jonas = {
     firstName: 'Jonas',
     lastName: 'Test',
@@ -29,3 +30,26 @@ console.log(jonas)
 
 console.log(jonas.firstName + ' has ' + jonas.friends.length + ' Friends and his best friend is ' + jonas.friends[0]);
 console.log(`${jonas.firstName} has ${jonas.friends.length} friends and his best friend is ${jonas.friends[0]}`);
+*/
+
+const mark = {
+    fullname: 'Mark Miller',
+    mass: 78,
+    height: 1.69,
+
+    calcBMI: function() {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+}
+
+const John = {
+    fullname: 'John Smith',
+    mass: 92,
+    height: 1.95,
+
+    calcBMI: function() {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+}
