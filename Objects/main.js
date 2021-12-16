@@ -30,7 +30,7 @@ console.log(jonas)
 
 console.log(jonas.firstName + ' has ' + jonas.friends.length + ' Friends and his best friend is ' + jonas.friends[0]);
 console.log(`${jonas.firstName} has ${jonas.friends.length} friends and his best friend is ${jonas.friends[0]}`);
-*/
+
 
 const mark = {
     fullname: 'Mark Miller',
@@ -53,3 +53,4 @@ const John = {
         return this.bmi;
     }
 }
+*/

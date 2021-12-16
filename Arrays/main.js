@@ -33,4 +33,28 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1],bills[2] + tips[2]];
 
 console.log(bills,tips,totals);
 
+
+
+// Looping Arrays, breaking and continuing
+
+const jonas = ['Jonas',
+    'Test',
+    24,
+    'Teacher',
+    ['bob','tom','dad']
+]
+
+for (let i = 0; i < jonas.length; i++){
+    if (typeof jonas[i] !== 'string') continue;
+    console.log(jonas[i], typeof jonas[i]);
+} 
+
+for (let i = 0; i < jonas.length; i++){
+    if (typeof jonas[i] === 'number') break;
+    console.log(jonas[i], typeof jonas[i]);
+}
+
+for (let i = jonas.length -1; i >= 0; i--){
+    console.log(jonas[i])
+}
 */
